@@ -5,7 +5,7 @@ const titleText = document.querySelector('.title');
 function play() {
     var player = document.createElement("iframe");
         player.classList.add('player');
-        player.src = "https://www.youtube.com/embed/QlQCGUK8tN4?autoplay=1&mute=1&loop=1&start=001&playlist=QlQCGUK8tN4&playsinline=1";
+        player.src = "https://www.youtube.com/embed/QlQCGUK8tN4?autoplay=1&mute=1&loop=1&start=001&playlist=QlQCGUK8tN4&playsinline=1&enablejsapi=1";
         player.width = "560";
         player.height = "315";
         player.title = "YouTube video player";
@@ -15,7 +15,7 @@ function play() {
 
         document.body.appendChild(player);
         const playerEl = document.querySelector('.player');
-        playerEl.src = "https://www.youtube.com/embed/QlQCGUK8tN4?autoplay=1&mute=0&loop=1&start=001&playlist=QlQCGUK8tN4&playsinline=1";
+        playerEl.src = "https://www.youtube.com/embed/QlQCGUK8tN4?autoplay=1&mute=0&loop=1&start=001&playlist=QlQCGUK8tN4&playsinline=1&enablejsapi=1";
 }
 
 
