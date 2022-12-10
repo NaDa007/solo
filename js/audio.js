@@ -2,8 +2,6 @@ const titleText = document.querySelector('.title');
 
 
 
-// <script src="./js/audio.js"></script>
-
 function play() {
     var player = document.createElement("iframe");
         player.classList.add('player');
