@@ -7,14 +7,14 @@
 
 .clock {
     color: #fff;
-    font-size: 0.95rem;
+    font-size: 1.45rem;
     font-family: 'BMJUA';
     position: absolute;;
     display: block;
 
     top: 3.5%;
-    left: 3%;
-    transform: translate(-5%, -3.5%);
+    left: 1.5vh;
+    transform: translate(-5vh, -2vh);
 }
 
 
