@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clock {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'BMJUA';
+    position: absolute;;
+    display: block;
+
+    top: 3.5%;
+    left: 1.5%;
+    transform: translate(-5%, -2%);
+}
+
+
+.title {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'BMJUA';
+    position: absolute;;
+    display: block;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+* {
+	box-sizing: border-box;
+}
+ 
+body {
+	margin: 0;
+    overflow: hidden;
+}
+ 
+.fa-snowflake {
+	animation: fall 5s linear forwards;
+	color: #fff;
+	position: absolute;
+}
+ 
+@keyframes fall {
+	to {
+		transform: translateY(90vh);
+	}
+}
+
+.player {
+    display: none;
+}
