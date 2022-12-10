@@ -4,15 +4,12 @@ console.log("Audio.js Loading!");
 
 function play() {
     console.log("Play Starting!");
-    Christmas.volume = 0;
+    Christmas.volume = 0.7;
     Christmas.muted = true;
-    Christmas.play();
     Christmas.loop = true;
+    Christmas.play();
 
-    setTimeout(function() { 
-        Christmas.volume = 0.7;
-        Christmas.muted = false;
-    }, 1500)
+    setTimeout(function() { Christmas.muted = false; }, 2500)
     console.log("Play Started!");
 }
 
