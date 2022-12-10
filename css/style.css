@@ -7,7 +7,7 @@
 
 .clock {
     color: #fff;
-    font-size: 24px;
+    font-size: 0.95rem;
     font-family: 'BMJUA';
     position: absolute;;
     display: block;
@@ -20,7 +20,7 @@
 
 .title {
     color: #fff;
-    font-size: 48px;
+    font-size: 3.5rem;
     text-align: center;
     font-family: 'BMJUA';
     position: absolute;;
