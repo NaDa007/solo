@@ -1,5 +1,5 @@
 const titleText = document.querySelector('.title');
-const Christmas = new Audio('./data/christmas.mp3')
+const Christmas = new Audio('../data/christmas.mp3')
 console.log("Audio.js Loading!");
 
 function play() {
