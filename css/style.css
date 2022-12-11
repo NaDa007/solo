@@ -109,10 +109,11 @@
 }
 
 
-* {
-	box-sizing: border-box;
-}
- 
+
+
+
+
+
 body {
     overflow: hidden;
 }
@@ -127,4 +128,13 @@ body {
 	to {
 		transform: translateY(90vh);
 	}
+}
+
+
+.musicBtn {
+    position: absolute;
+    width: 19.75px;
+    top: 55.75%;
+    left: 50%;
+    transform: translate(-55%, -50%);
 }
