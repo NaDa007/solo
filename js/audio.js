@@ -18,7 +18,6 @@ function getDate() {
     const day = date.getDate();
 
     if (!(titleText.innerText == "Christmas Is Coming Soon! 🔔") || (titleText.innerText == "🎁 Today Is Christmas! 🎄")) {
-        const player = document.querySelector('.player');
         Christmas.pause();
         
     } 
