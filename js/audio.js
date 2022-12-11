@@ -1,7 +1,6 @@
 const titleText = document.querySelector('.title');
 const Christmas = new Audio('./data/christmas.mp3')
 
-
 function play() {
     Christmas.volume = 0.7;
     Christmas.muted = true;
