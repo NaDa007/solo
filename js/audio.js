@@ -1,13 +1,15 @@
 const titleText = document.querySelector('.title');
 const Christmas = new Audio('./data/christmas.mp3')
 
+
 function play() {
     Christmas.volume = 0.7;
     Christmas.muted = true;
-    Christmas.play();
+    setTimeout(function() { Christmas.play(); }, 500)
+    
     Christmas.loop = true;
 
-    setTimeout(function() { Christmas.muted = false; }, 1000)
+    setTimeout(function() { Christmas.muted = false; }, 1500)
 }
 
 
