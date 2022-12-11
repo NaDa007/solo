@@ -3,13 +3,12 @@ const Christmas = new Audio('./data/christmas.mp3')
 
 
 function play() {
-    Christmas.volume = 0.7;
+    Christmas.volume = 0;
     Christmas.muted = true;
-    setTimeout(function() { Christmas.play(); }, 500)
-    
     Christmas.loop = true;
-
-    setTimeout(function() { Christmas.muted = false; }, 1500)
+    Christmas.play();
+    Christmas.muted = false;
+    Christmas.volume = 0.75;
 }
 
 
