@@ -6,6 +6,7 @@ console.log(musicBtn.src);
 function play() {
     console.log("musicBtn: Submit!")
     if (String(musicBtn.src).includes('playBtn.png')) {
+        Christmas.loop = true;
         Christmas.play();
         musicBtn.src = './data/pauseBtn.png';
     } else if (String(musicBtn.src).includes('pauseBtn.png')) {
