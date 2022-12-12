@@ -10,8 +10,9 @@
     font-size: 2.75rem;
     text-align: center;
     font-family: 'BMJUA';
-    position: absolute;;
+    position: absolute;
     display: block;
+    white-space:nowrap;
 
     top: 50%;
     left: 50%;
@@ -21,7 +22,7 @@
     color: #fff;
     font-size: 24px;
     font-family: 'BMJUA';
-    position: absolute;;
+    position: absolute;
     display: block;
 
     top: 3.5%;
@@ -35,8 +36,9 @@
         font-size: 1.25rem;
         text-align: center;
         font-family: 'BMJUA';
-        position: absolute;;
+        position: absolute;
         display: block;
+        white-space:nowrap;
     
         top: 50%;
         left: 50%;
@@ -46,7 +48,7 @@
         color: #fff;
         font-size: 24px;
         font-family: 'BMJUA';
-        position: absolute;;
+        position: absolute;
         display: block;
     
         top: 3.5%;
@@ -61,8 +63,9 @@
         font-size: 1.25rem;
         text-align: center;
         font-family: 'BMJUA';
-        position: absolute;;
+        position: absolute;
         display: block;
+        white-space:nowrap;
     
         top: 50%;
         left: 50%;
@@ -72,7 +75,7 @@
         color: #fff;
         font-size: 24px;
         font-family: 'BMJUA';
-        position: absolute;;
+        position: absolute;
         display: block;
     
         top: 3.5%;
@@ -88,8 +91,9 @@
         font-size: 2.75rem;
         text-align: center;
         font-family: 'BMJUA';
-        position: absolute;;
+        position: absolute;
         display: block;
+        white-space:nowrap;
     
         top: 50%;
         left: 50%;
@@ -99,7 +103,7 @@
         color: #fff;
         font-size: 24px;
         font-family: 'BMJUA';
-        position: absolute;;
+        position: absolute;
         display: block;
     
         top: 3.5%;
